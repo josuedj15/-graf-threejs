@@ -47,8 +47,8 @@ function animate() {
     cube2.rotation.y += 0.030;
     
     // Rotación del tercer cubo (el doble de rápido)
-    cube3.rotation.x += 100000.05;
-    cube3.rotation.y += 100000.05;
+    cube3.rotation.x += 100.05;
+    cube3.rotation.y += 100.05;
     
     renderer.render(scene, camera);
 }
